@@ -1,4 +1,0 @@
-RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} -f [OR]
-RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} -d
-RewriteRule ^ - [L]
-RewriteRule ^(.*)$ /_next/$1 [L]
