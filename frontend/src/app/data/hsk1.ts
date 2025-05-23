@@ -1380,4 +1380,4 @@ export const hsk1Hanzi: Hanzi[] = [
     level: 'HSK1',
     isLearned: false,
   }
-]; 
+];
